@@ -1,3 +1,11 @@
+Following this course from Udemy.  
+
+Goal of adding this to GitHub is to track all changes to project code as we move through the course.
+
+Don't you hate going through a course and wish you had a reference to the code at some stage before you changed it as the course advances?  That's the goal here. 
+
+///Auto Generated 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
