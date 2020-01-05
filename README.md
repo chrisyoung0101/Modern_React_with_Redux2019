@@ -1,3 +1,17 @@
+Modern React with Redux.  A 2019 update.  
+
+Covers React v16.6.3(November 12, 2018) and Redux v4.0.1.
+
+Following this course from Udemy.  
+
+Goal of adding this to GitHub is to track all changes to project code as we move through the course.
+
+Don't you hate going through a course and wish you had a reference to the code at some stage before you changed it as the course advances?  That's the goal here. 
+
+////////////////////////////////
+///Auto Generated stuff below///
+////////////////////////////////
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
