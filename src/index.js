@@ -3,25 +3,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-//function to be referenced or called inside JSX
-function getButtonText() {
-    return 'Click on me!';
-}
 
 // Create a react component
 // function component
 const App = () => {
 
-    //opening jsx tag must be on same line as return or error
-    //using this common convention below
+    const buttonText = { text: 'Click me' };
+
+    
     return (
         <div> 
             <label className="label" for="name">Enter name :</label>
             <input id="name" type="text"/>
-            {/* <button style="background-color: blue; color: white;">Submit</button> */}
             <button style={{ backgroundColor: 'blue', color: 'white'}}>
-            {/* reference the above JS function */}
-            {getButtonText()}
+            {buttonText.text}
             </button>
         </div>
     );
