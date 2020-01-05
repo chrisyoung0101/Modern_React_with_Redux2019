@@ -7,6 +7,9 @@ import ReactDOM from 'react-dom';
 // Create a react component
 // function component
 const App = () => {
+
+    const buttonText = 'Click Me!';
+
     //opening jsx tag must be on same line as return or error
     //using this common convention below
     return (
@@ -14,7 +17,9 @@ const App = () => {
             <label className="label" for="name">Enter name :</label>
             <input id="name" type="text"/>
             {/* <button style="background-color: blue; color: white;">Submit</button> */}
-            <button style={{ backgroundColor: 'blue', color: 'white'}}>Submit</button>
+            <button style={{ backgroundColor: 'blue', color: 'white'}}>
+            {buttonText}
+            </button>
         </div>
     );
 };
